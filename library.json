@@ -1,0 +1,34 @@
+{
+    "name": "StEnBedded.Hal",
+    "version": "0.1.0",
+    "description": "Platform IO library containing hardware abstractions.",
+    "keywords": "HAL, Hardware Abstraction Layer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stevenengland/StEnBedded.Hal.git"
+    },
+    "authors": [
+        {
+            "name": "Steven England",
+            "email": "StEn@steven-england.info",
+            "url": "https://github.com/stevenengland/StEnBedded.Hal"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/stevenengland/StEnBedded.Hal",
+    "dependencies": {},
+    "export": {
+        "include": [
+            "**/*.[ch]pp",
+            "**/*.h",
+            "examples/*"
+        ],
+        "exclude": [
+            "test/*"
+        ]
+    },
+    "frameworks": [
+        "Arduino"
+    ],
+    "platforms": "*"
+}
