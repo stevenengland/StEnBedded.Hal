@@ -24,7 +24,8 @@
             "examples/*"
         ],
         "exclude": [
-            "test/*"
+            "test/*",
+            "src/Mocks/*"
         ]
     },
     "frameworks": [
